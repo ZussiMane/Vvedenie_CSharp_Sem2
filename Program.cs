@@ -60,18 +60,25 @@
 // 16, 8 => да
 // 4, 3 => нет, 1
 
-Console.WriteLine("Введите первое число ");
-int number1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите первое число ");
+// int number1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите второе число ");
-int number2 = Convert.ToInt32(Console.ReadLine());
-int reminder = number1 % number2;
+// Console.WriteLine("Введите второе число ");
+// int number2 = Convert.ToInt32(Console.ReadLine());
+// int reminder = number1 % number2;
 
-if (reminder == 0)
-{
-    Console.WriteLine("Да");
-}
-else
-{
-    Console.WriteLine("нет, " + reminder);
-}
+// if (reminder == 0)
+// {
+//     Console.WriteLine("Да");
+// }
+// else
+// {
+//     Console.WriteLine("нет, " + reminder);
+// }
+//---------------------------------------------------------------//
+// Напишите программу, которая выводит третью 
+// по счету слева цифру заданного числа или сообщает, что 
+// Третьей цифры нет.
+// 456 => 6
+// 7812 => 8
+// 91 => Третьей цифры нет
